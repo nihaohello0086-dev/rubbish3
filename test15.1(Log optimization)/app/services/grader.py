@@ -873,7 +873,6 @@ def parse_result(text: Optional[str]) -> Dict[str, Any]:
 
     # Compute or validate overall score
     overall = _compute_overall_if_missing(raw_overall, rubric_scores)
-    logger.debug(f"Raw overall score before rounding: {overall}")
 
     # Round scores
     overall = _round(overall, _SCORE_DECIMALS)
@@ -906,4 +905,5 @@ def parse_result(text: Optional[str]) -> Dict[str, Any]:
         "overall_score": overall,
         "rubric_scores": rubric_scores,
         "feedback": feedback,
+
     }
