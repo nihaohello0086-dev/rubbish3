@@ -1,0 +1,27 @@
+# ===== Web Framework =====
+fastapi>=0.110
+uvicorn[standard]>=0.30
+
+# ===== Config & Models =====
+python-dotenv>=1.0
+pydantic>=2.7
+
+# ===== OpenAI SDK =====
+openai>=1.37.0
+
+# ===== OCR & Image Processing =====
+pillow>=10.0
+pytesseract>=0.3.10
+requests>=2.31.0
+
+# ===== Form Upload Support =====
+python-multipart>=0.0.9
+
+# ===== Document Processing =====
+# PDF Processing (choose one or both)
+PyMuPDF>=1.23.0         # Recommended for complex layouts and math content
+PyPDF2>=3.0.0           # Lightweight alternative
+
+# Word Document Processing (choose one or both)  
+python-docx>=0.8.11     # For .docx files
+mammoth>=1.0.0          # Alternative

@@ -1,0 +1,36 @@
+{"timestamp": "2026-01-08T08:44:21.328731", "level": "INFO", "logger": "grading_system", "module": "document_processor", "function": "<module>", "line": 16, "message": "PyPDF2 library available"}
+{"timestamp": "2026-01-08T08:44:21.481595", "level": "INFO", "logger": "grading_system", "module": "document_processor", "function": "<module>", "line": 24, "message": "PyMuPDF (fitz) library available"}
+{"timestamp": "2026-01-08T08:44:21.633734", "level": "INFO", "logger": "grading_system", "module": "document_processor", "function": "<module>", "line": 32, "message": "python-docx library available"}
+{"timestamp": "2026-01-08T08:44:21.711393", "level": "INFO", "logger": "grading_system", "module": "document_processor", "function": "<module>", "line": 40, "message": "mammoth library available"}
+{"timestamp": "2026-01-08T08:44:21.711855", "level": "INFO", "logger": "grading_system", "module": "document_processor", "function": "<module>", "line": 47, "message": "PyMuPDF (fitz) is available for PDF-to-Image conversion"}
+{"timestamp": "2026-01-08T08:44:24.713135", "level": "INFO", "logger": "grading_system", "module": "ocr", "function": "<module>", "line": 15, "message": "OCR service initialized with backend: auto"}
+{"timestamp": "2026-01-08T08:44:24.713400", "level": "INFO", "logger": "grading_system", "module": "ocr", "function": "<module>", "line": 23, "message": "Mathpix credentials configured"}
+{"timestamp": "2026-01-08T08:44:25.248881", "level": "INFO", "logger": "grading_system", "module": "ocr", "function": "<module>", "line": 32, "message": "OpenAI Vision model: gpt-5-mini"}
+{"timestamp": "2026-01-08T08:44:25.699080", "level": "INFO", "logger": "grading_system", "module": "grader", "function": "<module>", "line": 17, "message": "Grader service initialized with model: gpt-5-mini"}
+{"timestamp": "2026-01-08T08:44:26.205165", "level": "INFO", "logger": "grading_system", "module": "main", "function": "<module>", "line": 24, "message": "Starting AI Grading System v14.0.0"}
+{"timestamp": "2026-01-08T08:44:26.205980", "level": "INFO", "logger": "grading_system", "module": "main", "function": "<module>", "line": 25, "message": "Environment: OpenAI API Key configured: True"}
+{"timestamp": "2026-01-08T08:44:26.206454", "level": "INFO", "logger": "grading_system", "module": "main", "function": "<module>", "line": 76, "message": "CORS configured for origins: *"}
+{"timestamp": "2026-01-08T08:44:49.382777", "level": "INFO", "logger": "grading_system", "module": "main", "function": "log_requests", "line": 46, "message": "Request started: GET /docs"}
+{"timestamp": "2026-01-08T08:44:49.384000", "level": "INFO", "logger": "grading_system", "module": "main", "function": "log_requests", "line": 54, "message": "Request completed: GET /docs - Status: 200 - Time: 0.001s"}
+{"timestamp": "2026-01-08T08:45:00.127722", "level": "INFO", "logger": "grading_system", "module": "main", "function": "log_requests", "line": 46, "message": "Request started: GET /docs"}
+{"timestamp": "2026-01-08T08:45:00.129475", "level": "INFO", "logger": "grading_system", "module": "main", "function": "log_requests", "line": 54, "message": "Request completed: GET /docs - Status: 200 - Time: 0.002s"}
+{"timestamp": "2026-01-08T08:45:08.892888", "level": "INFO", "logger": "grading_system", "module": "main", "function": "log_requests", "line": 46, "message": "Request started: GET /docs"}
+{"timestamp": "2026-01-08T08:45:08.893867", "level": "INFO", "logger": "grading_system", "module": "main", "function": "log_requests", "line": 54, "message": "Request completed: GET /docs - Status: 200 - Time: 0.001s"}
+{"timestamp": "2026-01-08T08:45:09.437255", "level": "INFO", "logger": "grading_system", "module": "main", "function": "log_requests", "line": 46, "message": "Request started: GET /docs"}
+{"timestamp": "2026-01-08T08:45:09.438194", "level": "INFO", "logger": "grading_system", "module": "main", "function": "log_requests", "line": 54, "message": "Request completed: GET /docs - Status: 200 - Time: 0.001s"}
+{"timestamp": "2026-01-08T08:45:40.825082", "level": "INFO", "logger": "grading_system", "module": "main", "function": "log_requests", "line": 46, "message": "Request started: GET /docs"}
+{"timestamp": "2026-01-08T08:45:40.825995", "level": "INFO", "logger": "grading_system", "module": "main", "function": "log_requests", "line": 54, "message": "Request completed: GET /docs - Status: 200 - Time: 0.001s"}
+{"timestamp": "2026-01-08T08:45:51.209462", "level": "INFO", "logger": "grading_system", "module": "main", "function": "log_requests", "line": 46, "message": "Request started: GET /openapi.json"}
+{"timestamp": "2026-01-08T08:45:51.326866", "level": "INFO", "logger": "grading_system", "module": "main", "function": "log_requests", "line": 54, "message": "Request completed: GET /openapi.json - Status: 200 - Time: 0.119s"}
+{"timestamp": "2026-01-08T08:47:38.323424", "level": "INFO", "logger": "grading_system", "module": "document_processor", "function": "<module>", "line": 16, "message": "PyPDF2 library available"}
+{"timestamp": "2026-01-08T08:47:38.384946", "level": "INFO", "logger": "grading_system", "module": "document_processor", "function": "<module>", "line": 24, "message": "PyMuPDF (fitz) library available"}
+{"timestamp": "2026-01-08T08:47:38.502778", "level": "INFO", "logger": "grading_system", "module": "document_processor", "function": "<module>", "line": 32, "message": "python-docx library available"}
+{"timestamp": "2026-01-08T08:47:38.587126", "level": "INFO", "logger": "grading_system", "module": "document_processor", "function": "<module>", "line": 40, "message": "mammoth library available"}
+{"timestamp": "2026-01-08T08:47:38.587539", "level": "INFO", "logger": "grading_system", "module": "document_processor", "function": "<module>", "line": 47, "message": "PyMuPDF (fitz) is available for PDF-to-Image conversion"}
+{"timestamp": "2026-01-08T08:47:41.431072", "level": "INFO", "logger": "grading_system", "module": "ocr", "function": "<module>", "line": 15, "message": "OCR service initialized with backend: auto"}
+{"timestamp": "2026-01-08T08:47:41.431338", "level": "INFO", "logger": "grading_system", "module": "ocr", "function": "<module>", "line": 23, "message": "Mathpix credentials configured"}
+{"timestamp": "2026-01-08T08:47:41.913684", "level": "INFO", "logger": "grading_system", "module": "ocr", "function": "<module>", "line": 32, "message": "OpenAI Vision model: gpt-5-mini"}
+{"timestamp": "2026-01-08T08:47:42.293717", "level": "INFO", "logger": "grading_system", "module": "grader", "function": "<module>", "line": 17, "message": "Grader service initialized with model: gpt-5-mini"}
+{"timestamp": "2026-01-08T08:47:42.761492", "level": "INFO", "logger": "grading_system", "module": "main", "function": "<module>", "line": 24, "message": "Starting AI Grading System v14.0.0"}
+{"timestamp": "2026-01-08T08:47:42.761813", "level": "INFO", "logger": "grading_system", "module": "main", "function": "<module>", "line": 25, "message": "Environment: OpenAI API Key configured: True"}
+{"timestamp": "2026-01-08T08:47:42.762598", "level": "INFO", "logger": "grading_system", "module": "main", "function": "<module>", "line": 76, "message": "CORS configured for origins: *"}

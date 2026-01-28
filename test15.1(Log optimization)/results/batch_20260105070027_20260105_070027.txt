@@ -1,0 +1,38 @@
+Batch ID: 20260105070027
+Count: 2  Success: 2  Fail: 0
+Rubric: Completeness, Method, Final Answer, Arithmetic, Unit
+Summary: avg=65.0, min=30.0, max=100.0, stdev=35.0, pass_rate=0.5
+
+-- Items (detailed) --
+
+[0001] 屏幕截图 2026-01-05 145646.png
+  overall=100.0, weighted=None
+  Rubric details:
+    - Completeness: 1.0
+      Includes relevant expressions, reasoning about maximizing gain, and computes the required bias current.
+    - Method: 1.0
+      Correct approach using the active‑mode constraint at the edge of saturation. The statement V_BE = V_CE is acceptable here (equivalent to V_C = V_B).
+    - Final Answer: 1.0
+      Final numeric answer I_C = 1.7 mA is correct.
+    - Arithmetic: 1.0
+      Arithmetic is correct (2.5−0.8 = 1.7 V; 1.7 V/1 kΩ = 1.7 mA).
+    - Unit: 1.0
+      Proper units used (mA).
+  Feedback:
+    Correct solution and numeric result. Minor wording nit: stating the active‑limit as V_C = V_B (or V_CE = V_BE) is slightly clearer, but your usage yields the same correct answer.
+
+[0002] 屏幕截图 2026-01-05 145736.png
+  overall=30.0, weighted=None
+  Rubric details:
+    - Completeness: 0.0
+      Answer does not address the given problem — it solves a different scenario (mentions Av and a 50 kΩ resistor not in the problem).
+    - Method: 0.0
+      Method is incorrect for this question. Correct approach: enforce V_C > V_B, yielding I_C < (VCC − V_BE)/R_C and choose the upper limit for maximum gain.
+    - Final Answer: 0.0
+      Final numeric answer is wrong for the given circuit; student reports ≈0.0104 mA but the correct bias current is 1.7 mA.
+    - Arithmetic: 0.5
+      Arithmetic in the student's isolated computation is internally consistent (0.0104 mA from their numbers), but those assumptions are not applicable to the problem.
+    - Unit: 1.0
+      Units are used correctly (mA, V).
+  Feedback:
+    Your solution does not apply to the given circuit. For maximum gain while keeping Q1 active, require V_C > V_B (with V_B ≈ V_BE), so I_C < (VCC − V_BE)/R_C. Thus choose I_C = (2.5 V − 0.8 V)/1.0 kΩ = 1.7 mA. Rework using that constraint.
